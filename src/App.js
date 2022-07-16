@@ -1,7 +1,11 @@
+import BioHeader from "./components/Header/Bio-Header";
+import Description from "./components/Text/Description";
+
 function App() {
   return (
     <div>
-      <h2>Let's get started!</h2>
+      <BioHeader />
+      <Description />
     </div>
   );
 }
