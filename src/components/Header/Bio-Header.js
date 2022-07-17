@@ -1,11 +1,11 @@
 import React from "react";
 
-import classes from "Bio-Header.module.css";
+import classes from "./Bio-Header.module.css";
 
 const BioHeader = (props) => {
   return (
     <div>
-      <h1 className="h1">Biography</h1>
+      <h1 className={classes.h1}>Biography</h1>
     </div>
   );
 };
