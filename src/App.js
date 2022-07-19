@@ -1,24 +1,30 @@
 import BioHeader from "./components/Header/Bio-Header";
 import Description from "./components/Text/Description";
 import Card from "./components/UI/Card";
-import BigCard from "./components/UI/BigCard";
-import CardRight from "./components/UI/CardRight";
-import classes from "./App.module.css";
 import Topics from "./components/Header/Topics";
+import TopicsButton from "./components/Button/TopicsButton";
+
+import classes from "./App.module.css";
 
 function App() {
   return (
-    <BigCard>
+    <Card className={classes.BigCardS}>
       <div className={classes.row}>
-        <Card>
+        <div className={classes.CardS}>
           <BioHeader />
           <Description />
-        </Card>
-        <CardRight>
+        </div>
+        <div className={classes.CardS}>
           <Topics />
-        </CardRight>
+          <div className={classes.row}>
+            <TopicsButton />
+            <TopicsButton />
+            <TopicsButton />
+            <TopicsButton />
+          </div>
+        </div>
       </div>
-    </BigCard>
+    </Card>
   );
 }
 

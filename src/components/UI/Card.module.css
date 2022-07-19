@@ -3,13 +3,11 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
     border-radius: 12px;
     border-color: black;
-    width: 40%;
-    padding: 15px;
-    margin: 20px
 }
 
 @media (max-width: 550px) {
     .Card {
-        width: 90%;
+        width: 100%;
     }
 }
+

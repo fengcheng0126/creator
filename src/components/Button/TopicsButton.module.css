@@ -1,0 +1,12 @@
+.blue {
+    color: blue;
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width=550) {
+    .blue {
+        display: flex;
+        flex-direction: row;
+    }
+}
