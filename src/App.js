@@ -2,9 +2,11 @@ import BioHeader from "./components/Header/Bio-Header";
 import Description from "./components/Text/Description";
 import Card from "./components/UI/Card";
 import Topics from "./components/Header/Topics";
-import TopicsButton from "./components/Button/TopicsButton";
+import TopicsOutlets from "./components/Button/TopicsOutlets";
 
 import classes from "./App.module.css";
+import Outlets from "./components/Header/Outlets";
+import Orange from "./components/Button/Orange";
 
 function App() {
   return (
@@ -17,10 +19,11 @@ function App() {
         <div className={classes.CardS}>
           <Topics />
           <div className={classes.row}>
-            <TopicsButton />
-            <TopicsButton />
-            <TopicsButton />
-            <TopicsButton />
+            <TopicsOutlets />
+          </div>
+          <Outlets />
+          <div className={classes.row}>
+            <Orange />
           </div>
         </div>
       </div>

@@ -1,0 +1,15 @@
+.orange {
+    color: orangered;
+    display: flex;
+    flex-direction: row;
+    font-size: large;
+}
+
+.orangeButton {
+    background-color: orange;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 5px;
+    border-color: red;
+    padding: 6px;
+    margin: 12px;
+}

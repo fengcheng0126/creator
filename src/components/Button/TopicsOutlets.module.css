@@ -1,0 +1,15 @@
+.blue {
+    color: blue;
+    display: flex;
+    flex-direction: row;
+    font-size: large;
+}
+
+.blueButton {
+    background-color: lightblue;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 5px;
+    border-color: blue;
+    padding: 6px;
+    margin: 12px;
+}
