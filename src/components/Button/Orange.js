@@ -4,13 +4,11 @@ const Orange = (props) => {
   let orangeTopics = ["Twitter", "Youtube", "Facebook"];
 
   return (
-    <>
-      <div className={classes.orange}>
-        <div className={classes.orangeButton}>{orangeTopics[0]}</div>
-        <div className={classes.orangeButton}>{orangeTopics[1]}</div>
-        <div className={classes.orangeButton}>{orangeTopics[2]}</div>
-      </div>
-    </>
+    <div className={classes.orange}>
+      <span className={classes.orangeButton}>{orangeTopics[0]}</span>
+      <span className={classes.orangeButton}>{orangeTopics[1]}</span>
+      <span className={classes.orangeButton}>{orangeTopics[2]}</span>
+    </div>
   );
 };
 

@@ -13,3 +13,10 @@
     padding: 6px;
     margin: 12px;
 }
+
+@media (max-width: 500px) {
+    .blue {
+        display: flex;
+        flex-direction: column;
+    }
+}

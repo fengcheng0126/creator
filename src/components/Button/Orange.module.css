@@ -13,3 +13,9 @@
     padding: 6px;
     margin: 12px;
 }
+@media (max-width: 500px) {
+    .orange {
+        display: flex;
+        flex-direction: column;
+    }
+}
